@@ -1,0 +1,76 @@
+{
+    "name": "stick",
+    "maps": [
+        {
+            "name": "UI",
+            "id": "6d3fce83-07c0-4d28-8911-5bd8e8d8aff3",
+            "actions": [
+                {
+                    "name": "NavigateRight",
+                    "type": "Value",
+                    "id": "7b0dad93-fcaa-419a-9a5c-d3fdc297edd1",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "NavigateLeft",
+                    "type": "Value",
+                    "id": "1abe560e-def0-4000-bf3c-e0b5df172d32",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "Stick",
+                    "id": "2f5d0523-feb2-434b-bb2a-06937f63abc9",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "NavigateRight",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "right",
+                    "id": "5e741548-bba1-4b9e-ae2a-b8c36a0867e6",
+                    "path": "<Gamepad>/dpad/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "NavigateRight",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Stick2",
+                    "id": "6865b7cd-e9a1-44fa-94c6-3a46473bfc6f",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "NavigateLeft",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "left",
+                    "id": "f211b6f2-7028-4c62-8c97-efc57ca7bb14",
+                    "path": "<Gamepad>/dpad/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "NavigateLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
