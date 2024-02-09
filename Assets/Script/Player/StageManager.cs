@@ -14,9 +14,9 @@ public class StageManager : MonoBehaviour
     [SerializeField] float speed; //speed m/s
 
     /// <summary>
-    /// ステージのスピードを取得
+    /// ステージのオブジェクト取得
     /// </summary>
-    [Tooltip("ステージが移動するスピード")]
+    [Tooltip("ステージオブジェクト")]
     [SerializeField] GameObject obstacle; //speed m/s
 
     /// <summary>

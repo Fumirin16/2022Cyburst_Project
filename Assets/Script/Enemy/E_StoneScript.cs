@@ -153,7 +153,7 @@ public class E_StoneScript : MonoBehaviour
                 if (enemyRenderer1.isVisible || enemyRenderer2.isVisible)
                 {
                     //AudioSource.PlayClipAtPoint(bounceSE, transform.position);
-                    ////バリアがあったら跳ね返る
+                    //バリアがあったら跳ね返る
                     rb.AddForce(bounce, ForceMode.Impulse);
                 }
                 break;

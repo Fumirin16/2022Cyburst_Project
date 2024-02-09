@@ -7,67 +7,74 @@ public class BE_Maneger : MonoBehaviour
     #region ---Fields---
 
     /// <summary>
-    ///  バリアに弾く力
+    ///  playerの位置取得
     /// </summary>
-    [SerializeField] Transform player_pos;//playerの位置
+    [Tooltip("Playerオブジェクト")]
+    [SerializeField] Transform player_pos;
 
     /// <summary>
-    ///  バリアに弾く力
+    ///  エフェクトオブジェクト取得
     /// </summary>
-    [SerializeField] GameObject particleObject;//effectのオブジェクト
+    [Tooltip("爆発エフェクト")]
+    [SerializeField] GameObject particleObject;
 
     /// <summary>
-    ///  バリアに弾く力
+    ///  Enemy表示のインターバル
     /// </summary>
-    [SerializeField] float interval;//Enemy表示のインターバル
+    [Tooltip("スポーンの間隔時間")]
+    [SerializeField] float interval;
 
     /// <summary>
-    ///  バリアに弾く力
+    ///  浮遊する変数0～1の範囲で敵ごとに変える
     /// </summary>
-    [SerializeField] float floating = 0.1f; //浮遊する変数0～1の範囲で敵ごとに変える
+    [Tooltip("浮遊する数字")]
+    [SerializeField] float floating = 0.1f;
 
     /// <summary>
-    ///  バリアに弾く力
+    ///  X座標
     /// </summary>
-    [SerializeField] float x; //敵のｘ座標　-5,-3,0,3,5
+    [Tooltip("X座標")]
+    [SerializeField] float x;
 
     /// <summary>
-    ///  バリアに弾く力
+    ///  Y座標
     /// </summary>
+    [Tooltip("Y座標")]
     [SerializeField] float pos_y;
 
     /// <summary>
-    ///  バリアに弾く力
+    ///  爆発音
     /// </summary>
+    [Tooltip("爆発音")]
     [SerializeField] AudioClip explosionSE;
 
     /// <summary>
-    ///  バリアに弾く力
+    ///  UI＿Scoreの参照変数
     /// </summary>
-    U_Score us;//UI＿Score
+    U_Score us;
 
     /// <summary>
-    ///  バリアに弾く力
+    ///  AudioSource取得
     /// </summary>
-    AudioSource audioSource;//UI＿Score
+    AudioSource audioSource;
 
     /// <summary>
-    ///  バリアに弾く力
+    ///  playerのZ位置
     /// </summary>
-    float pz;//playerのZ位置
+    float pz;
 
     /// <summary>
-    ///  バリアに弾く力
+    ///  経過時間取得
     /// </summary>
     float time;
 
     /// <summary>
-    ///  バリアに弾く力
+    ///  Scoreの変数
     /// </summary>
-    int scoreValue = 100;//Scoreの変数
+    int scoreValue = 100;
 
     /// <summary>
-    ///  バリアに弾く力
+    ///  浮遊するときのY座標
     /// </summary>
     float y;
 

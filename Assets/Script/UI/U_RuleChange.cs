@@ -30,7 +30,7 @@ public class U_RuleChange : MonoBehaviour
     AudioSource audioSource;
 
     /// <summary>
-    /// AudioSource取得
+    /// 選択したページ変数
     /// </summary>
     int pushKey;
 

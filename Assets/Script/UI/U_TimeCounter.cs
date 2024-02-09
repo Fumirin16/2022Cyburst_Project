@@ -27,17 +27,17 @@ public class U_TimeCounter : MonoBehaviour
     [SerializeField] GameObject clear;
 
     /// <summary>
-    /// クリアパネル取得
+    /// バリアオブジェクト取得
     /// </summary>
     [SerializeField] GameObject barriar;
 
     /// <summary>
-    /// クリアパネル取得
+    /// レーザーオブジェクト取得
     /// </summary>
     [SerializeField] GameObject laser;
 
     /// <summary>
-    ///  左右移動スピードの変数
+    ///  経過時間
     /// </summary>
     static float leftTime;
 
@@ -53,15 +53,17 @@ public class U_TimeCounter : MonoBehaviour
 
     void Update()
     {
-        //時間をカウントダウンする
+        // 時間をカウントダウンする
         leftTime -= Time.deltaTime;
 
+        // 分、秒を計算
         minute = (int)leftTime / 60;
         seconds = leftTime - minute * 60;
 
-        //時間を表示する
+        // 時間を表示する
         timeText.text = minute.ToString("00") + "." + seconds.ToString("f2");
 
+        // 時間になったら
         if(IsTimeOver())
         {
             timeText.text = "";
@@ -73,7 +75,7 @@ public class U_TimeCounter : MonoBehaviour
     }
 
     /// <summary>
-    ///  時間オーバー
+    ///  タイムアップになったら返す関数
     /// </summary>
     public static bool IsTimeOver()
     {
@@ -81,7 +83,7 @@ public class U_TimeCounter : MonoBehaviour
     }
 
     /// <summary>
-    ///  Text取得
+    ///  クリアシーン遷移関数
     /// </summary>
     void GoClear()
     {

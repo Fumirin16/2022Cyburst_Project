@@ -22,80 +22,88 @@ public class E_Maneger : MonoBehaviour
     [SerializeField] GameObject particleObject;
 
     /// <summary>
-    ///  バリアに弾く力
+    ///  Enemy表示のインターバル
     /// </summary>
-    [Tooltip("")]
-    [SerializeField] float interval;//Enemy表示のインターバル
+    [Tooltip("スポーンの間隔時間")]
+    [SerializeField] float interval;
 
     /// <summary>
-    ///  バリアに弾く力
+    ///  浮遊する変数0～1の範囲で敵ごとに変える
     /// </summary>
-    [SerializeField] float floating = 0.1f; //浮遊する変数0～1の範囲で敵ごとに変える
+    [Tooltip("浮遊する数字")]
+    [SerializeField] float floating = 0.1f;
 
     /// <summary>
-    ///  バリアに弾く力
+    ///  X座標
     /// </summary>
-    [SerializeField] float x; //敵のｘ座標　-5,-3,0,3,5
+    [Tooltip("X座標")]
+    [SerializeField] float x;
 
     /// <summary>
-    ///  バリアに弾く力
+    ///  Y座標
     /// </summary>
+    [Tooltip("Y座標")]
     [SerializeField] float pos_y;
 
     /// <summary>
-    ///  バリアに弾く力
+    ///  爆発音
     /// </summary>
+    [Tooltip("爆発音")]
     [SerializeField] AudioClip explosionSE;
 
     /// <summary>
-    ///  バリアに弾く力
+    ///  バリア敵レンダラー取得
     /// </summary>
+    [Tooltip("バリア敵オブジェクトアタッチ")]
     [SerializeField] Renderer enemyRenderer1;
 
     /// <summary>
-    ///  バリアに弾く力
+    ///  バリア敵レンダラー取得
     /// </summary>
+    [Tooltip("バリア敵オブジェクトアタッチ")]
     [SerializeField] Renderer enemyRenderer2;
 
     /// <summary>
     ///  バリアに弾く力
     /// </summary>
+    [Tooltip("バリアから弾くときの力")]
     [SerializeField] Vector3 bounce;
 
     /// <summary>
     ///  弾く音取得
     /// </summary>
+    [Tooltip("バリア弾く音")]
     [SerializeField] AudioClip bounceSE;
 
     /// <summary>
-    ///  リジットボディ格納
+    ///  AudioSource取得
     /// </summary>
     AudioSource audioSource;
 
     /// <summary>
-    ///  リジットボディ格納
+    ///  UI＿Scoreの参照変数
     /// </summary>
-    U_Score us;//UI＿Score
+    U_Score us;
 
     /// <summary>
-    ///  リジットボディ格納
+    ///  playerのZ位置
     /// </summary>
-    float pz;//playerのZ位置
+    float pz;
 
     /// <summary>
-    ///  リジットボディ格納
+    ///  経過時間取得
     /// </summary>
     float time;
 
     /// <summary>
-    ///  リジットボディ格納
+    ///  Scoreの変数
     /// </summary>
-    float y;
+    int scoreValue = 100;
 
     /// <summary>
-    ///  リジットボディ格納
+    ///  浮遊するときのY座標
     /// </summary>
-    int scoreValue = 100;//Scoreの変数
+    float y;
 
     #endregion ---Fields---
 
