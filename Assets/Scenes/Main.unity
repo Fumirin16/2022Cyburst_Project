@@ -4225,10 +4225,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3217318029506547979, guid: 284f4d837bf23614d81710f9f8a03f06, type: 3}
+      propertyPath: m_Name
+      value: TargetUI3
+      objectReference: {fileID: 0}
     - target: {fileID: 3217318029895913261, guid: 284f4d837bf23614d81710f9f8a03f06, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: ba512dd63df624c408e56ee885d84b11, type: 3}
+    - target: {fileID: 3217318029895913267, guid: 284f4d837bf23614d81710f9f8a03f06, type: 3}
+      propertyPath: m_Name
+      value: Targetimage3
+      objectReference: {fileID: 0}
     - target: {fileID: 3217318030122178130, guid: 284f4d837bf23614d81710f9f8a03f06, type: 3}
       propertyPath: x
       value: -3
@@ -12212,6 +12220,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5480483391703867738, guid: c626a8a25f8701d43b6c8989e68b3aeb, type: 3}
+      propertyPath: m_Name
+      value: B_TargetUI2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5480483392685684832, guid: c626a8a25f8701d43b6c8989e68b3aeb, type: 3}
+      propertyPath: m_Name
+      value: B_Targetimage2
+      objectReference: {fileID: 0}
     - target: {fileID: 5480483392685684838, guid: c626a8a25f8701d43b6c8989e68b3aeb, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -19010,7 +19026,7 @@ GameObject:
   - component: {fileID: 1081175434}
   - component: {fileID: 1081175433}
   m_Layer: 0
-  m_Name: CloseWindow
+  m_Name: QuitGameSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23572,10 +23588,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3217318029506547979, guid: 284f4d837bf23614d81710f9f8a03f06, type: 3}
+      propertyPath: m_Name
+      value: TargetUI2
+      objectReference: {fileID: 0}
     - target: {fileID: 3217318029895913261, guid: 284f4d837bf23614d81710f9f8a03f06, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: ba512dd63df624c408e56ee885d84b11, type: 3}
+    - target: {fileID: 3217318029895913267, guid: 284f4d837bf23614d81710f9f8a03f06, type: 3}
+      propertyPath: m_Name
+      value: Targetimage2
+      objectReference: {fileID: 0}
     - target: {fileID: 3217318030122178130, guid: 284f4d837bf23614d81710f9f8a03f06, type: 3}
       propertyPath: x
       value: 3
@@ -39034,10 +39058,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3217318029506547979, guid: 284f4d837bf23614d81710f9f8a03f06, type: 3}
+      propertyPath: m_Name
+      value: TargetUI1
+      objectReference: {fileID: 0}
     - target: {fileID: 3217318029895913261, guid: 284f4d837bf23614d81710f9f8a03f06, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: ba512dd63df624c408e56ee885d84b11, type: 3}
+    - target: {fileID: 3217318029895913267, guid: 284f4d837bf23614d81710f9f8a03f06, type: 3}
+      propertyPath: m_Name
+      value: Targetimage1
+      objectReference: {fileID: 0}
     - target: {fileID: 3217318030122178130, guid: 284f4d837bf23614d81710f9f8a03f06, type: 3}
       propertyPath: bounce.x
       value: 0
@@ -39135,6 +39167,14 @@ PrefabInstance:
     - target: {fileID: 5441526917545537580, guid: c626a8a25f8701d43b6c8989e68b3aeb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5480483391703867738, guid: c626a8a25f8701d43b6c8989e68b3aeb, type: 3}
+      propertyPath: m_Name
+      value: B_TargetUI1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5480483392685684832, guid: c626a8a25f8701d43b6c8989e68b3aeb, type: 3}
+      propertyPath: m_Name
+      value: B_Targetimage1
       objectReference: {fileID: 0}
     - target: {fileID: 5480483392685684838, guid: c626a8a25f8701d43b6c8989e68b3aeb, type: 3}
       propertyPath: m_Sprite
