@@ -1,12 +1,12 @@
-//ì¬ŽÒ’nˆø—ƒ
-//ƒvƒŒƒC‰æ–Êiƒrƒ‹ƒh‚µ‚½‚â‚Âj‚ÅBACKƒ{ƒ^ƒ“‚©EscƒL[‰Ÿ‚µ‚½‚çI‚í‚é
+//ä½œæˆè€…åœ°å¼•ç¿¼
+//ãƒ—ãƒ¬ã‚¤ç”»é¢ï¼ˆãƒ“ãƒ«ãƒ‰ã—ãŸã‚„ã¤ï¼‰ã§BACKãƒœã‚¿ãƒ³ã‹Escã‚­ãƒ¼æŠ¼ã—ãŸã‚‰çµ‚ã‚ã‚‹
 using UnityEngine;
 
 public class CloseWindow : MonoBehaviour
 {
     void Update()
     {
-        // BACKƒ{ƒ^ƒ“‚©ƒGƒXƒP[ƒvƒL[‰Ÿ‚µ‚½‚çI—¹
+        // BACKãƒœã‚¿ãƒ³ã‹ã‚¨ã‚¹ã‚±ãƒ¼ãƒ—ã‚­ãƒ¼æŠ¼ã—ãŸã‚‰çµ‚äº†
         if (Input.GetKeyDown(KeyCode.JoystickButton7) || Input.GetKey(KeyCode.Escape))
         {
             Application.Quit();
