@@ -18,7 +18,9 @@ GitHub
 VisualStudioCode
 
 # プレイ動画
-<video controls src="image/作品実演動画（Cyburst）.mp4" title="Title"></video>
+## 実演動画（約1分30秒）
+- スタートからクリアまでの一連の流れを収めた動画です。
+https://drive.google.com/file/d/1VXBb6mTb8m74fOsVhSzIFPKcw2meAf_5/view?usp=sharing
 # 担当箇所
 インゲーム
  - プレイヤー（移動、打つ、モーション）
